@@ -163,17 +163,17 @@ var agecatCenters = { // Center locations of the bubbles.
 // Fünfter Button: Sorgen
     
   var sorgenCenters = { // Center locations of the bubbles. 
-    '1': { x: 320, y: height / 2 },
-    '2': { x: 420, y: height / 2 },
-    '3': { x: 530, y: height / 2 },
-    '4': { x: 650, y: height / 2 }
+    '1': { x: 420, y: height / 2 },
+    '2': { x: 520, y: height / 2 },
+    '3': { x: 630, y: height / 2 },
+    '4': { x: 750, y: height / 2 }
   };
 
   var sorgenTitleX = {  // X locations of the year titles.
-    'Stimmt': 135,
-    'Stimmt eher': 345,
-    'Stimmt eher nicht': 580,
-    'Stimmt nicht': 820
+    'Stimmt': 235,
+    'Stimmt eher': 445,
+    'Stimmt eher nicht': 680,
+    'Stimmt nicht': 920
   };
     
   // Sechster Button: Smartphone griffbereit beim Schlafen
@@ -181,15 +181,15 @@ var agecatCenters = { // Center locations of the bubbles.
   var reachCenters = { // Center locations of the bubbles. 
     '1': { x: 320, y: height / 2 },
     '2': { x: 420, y: height / 2 },
-    '3': { x: 530, y: height / 2 },
-    '4': { x: 650, y: height / 2 }
+    '3': { x: 600, y: height / 2 },
+    '4': { x: 780, y: height / 2 }
   };
 
   var reachTitleX = {  // X locations of the year titles.
-    'Stimmt': 220,
-    'Stimmt eher': 440,
-    'Stimmt eher nicht': 630,
-    'Stimmt nicht': 780
+    'Stimmt': 235,
+    'Stimmt eher': 445,
+    'Stimmt eher nicht': 680,
+    'Stimmt nicht': 920
   };
          
     
