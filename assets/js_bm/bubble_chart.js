@@ -755,7 +755,7 @@ function moveToAgecat(alpha) {
 
   var fillColor = d3.scale.ordinal()
     .domain(['1','2','3', '4','5','6'])
-    .range(['#F7CAD0', '#9EBC9E', '#FFCFD2', '#FFAFC5','#E0479E','#553E4E']);
+    .range(['#F7CAD0', '#EF476F', '#FFD166', '#06D6A0','#118AB2','#073B4C']);
 
   /* Tooltip-Funktion*/
   function showDetail(d) {
