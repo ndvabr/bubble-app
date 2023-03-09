@@ -163,33 +163,33 @@ var agecatCenters = { // Center locations of the bubbles.
 // Fünfter Button: Sorgen
     
   var sorgenCenters = { // Center locations of the bubbles. 
-    '1': { x: 220, y: height / 2 },
-    '2': { x: 320, y: height / 2 },
-    '3': { x: 430, y: height / 2 },
-    '4': { x: 550, y: height / 2 }
+    '1': { x: 320, y: height / 2 },
+    '2': { x: 420, y: height / 2 },
+    '3': { x: 530, y: height / 2 },
+    '4': { x: 650, y: height / 2 }
   };
 
   var sorgenTitleX = {  // X locations of the year titles.
-    'Stimmt': 40,
-    'Stimmt eher': 160,
-    'Stimmt eher nicht': 330,
-    'Stimmt nicht': 540
+    'Stimmt': 135,
+    'Stimmt eher': 345,
+    'Stimmt eher nicht': 580,
+    'Stimmt nicht': 820
   };
     
-  // Sechster Button: Smartphone griffbereit beim schlafen
+  // Sechster Button: Smartphone griffbereit beim Schlafen
     
   var reachCenters = { // Center locations of the bubbles. 
-    '1': { x: 220, y: height / 2 },
-    '2': { x: 320, y: height / 2 },
-    '3': { x: 430, y: height / 2 },
-    '4': { x: 550, y: height / 2 }
+    '1': { x: 320, y: height / 2 },
+    '2': { x: 420, y: height / 2 },
+    '3': { x: 530, y: height / 2 },
+    '4': { x: 650, y: height / 2 }
   };
 
   var reachTitleX = {  // X locations of the year titles.
-    'Stimmt': 40,
-    'Stimmt eher': 160,
-    'Stimmt eher nicht': 330,
-    'Stimmt nicht': 540
+    'Stimmt': 220,
+    'Stimmt eher': 440,
+    'Stimmt eher nicht': 630,
+    'Stimmt nicht': 780
   };
          
     
@@ -755,7 +755,7 @@ function moveToAgecat(alpha) {
 
   var fillColor = d3.scale.ordinal()
     .domain(['1','2','3', '4','5','6'])
-    .range(['#F7CAD0', '#ff006e', '#48CAE4', '#0096C7','#023E8A','#03045E']);
+    .range(['#F7CAD0', '#9EBC9E', '#FFCFD2', '#FFAFC5','#E0479E','#553E4E']);
 
   /* Tooltip-Funktion*/
   function showDetail(d) {
